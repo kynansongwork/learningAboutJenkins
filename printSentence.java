@@ -1,4 +1,4 @@
-class printSentence {
+class rintSentence {
 
     public static void main(String[] args){
 
