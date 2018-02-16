@@ -5,6 +5,8 @@ class printSentence {
         String sentence = "Hello, this is a test";
 
         printASentence(sentence);
+        sentence = "This is a new sentence";
+        printASentence(sentence);
 
     }
 
@@ -12,5 +14,7 @@ class printSentence {
         for(int i=1; i <= 6; i++)
         System.out.println(message + " " + i);
     }
+
+
 
 }
