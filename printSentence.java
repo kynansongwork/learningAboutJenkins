@@ -1,8 +1,8 @@
-class rintSentence {
+class printSentence {
 
     public static void main(String[] args){
 
-        String sentence = "Hello, this is a test";
+        String sentence = "Hello, this is a test"
 
         printASentence(sentence);
         sentence = "This is a new sentence";
