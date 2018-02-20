@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 pipeline {
     agent {
-        label 'xcode8.3'
+        label 'test'
     }
 
 
@@ -18,7 +18,7 @@ pipeline {
     post {
         success {
            
-            cleanWs()
+
         }
     }
 }
