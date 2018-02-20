@@ -15,10 +15,5 @@ pipeline {
 
 
     }
-    post {
-        success {
-           
 
-        }
-    }
 }
